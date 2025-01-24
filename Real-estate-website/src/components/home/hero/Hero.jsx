@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./hero.css";
 
 const Hero = () => {
-  // State to hold the values for search fields
   const [city, setCity] = useState("");
   const [street, setStreet] = useState("");
   const [propertyType, setPropertyType] = useState("");
